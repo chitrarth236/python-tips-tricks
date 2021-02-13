@@ -5,3 +5,6 @@ class Polynomial:
     def __repr__(self):
         return "Polynomial(*{!r})".format(self.coeffs)
     
+    def __add__(self, other):
+        return Polynomial(*(x + y for x, y  in zip(self.coeffs, other.coeffs)))
+        
