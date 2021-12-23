@@ -1,5 +1,3 @@
-# Class Variables in Python
-
 ## 3 Types of Variables in OOP Python
 1. Instance Variable (Object Level)
 2. Static Variable (Class Level)
@@ -47,38 +45,33 @@
 
 
 
-### 1.Instance Method
+## 3 Types of Methods in OOP Python
+1. Instance Method
+2. Static Method 
+3. class Method 
 
-	- Uses Instance variables inside the method
-	- Uses self variable to point the current object
-	- self is used to for instance variable manipulation inside Instance method
-	- Accessible via object reference variable
+### 1. Instance Method
+
+  - Uses Instance variables inside the method
+  - Uses self variable to point the current object
+  - self is used to for instance variable manipulation inside Instance method
+  - Accessible via object reference variable
 
 ### 2. Class Method
 
-	- Uses static variables inside the method
-	- @classmethod decorator is used to declare it
-	- uses cls variable to point the current class
-	- Accessible via classname or object reference
+  - Uses static variables inside the method
+  - @classmethod decorator is used to declare it
+  - uses cls variable to point the current class
+  - Accessible via classname or object reference
 
 ### 3. Static Method
-	- No Instance or Static variable is used inside these method
-	- @staticmethod decorator is used to declare it
-	- Accessible via classname or object reference
+  - No Instance or Static variable is used inside these method
+  - @staticmethod decorator is used to declare it
+  - Accessible via classname or object reference
 	
-
-1. Duck Typing in Python
-2. Overloading
-	1. Operator Overloading
-	2. Method Overloading
-	3. Constructor Overloading
-3. Overriding
-	1. Method overriding
-	2. constructor overriding
 	
+## Overloading	
 
-
-	
 ### 1. Constructor Overloading
 	- Constructors having same name but different arguments
 	- Not supported in Python
