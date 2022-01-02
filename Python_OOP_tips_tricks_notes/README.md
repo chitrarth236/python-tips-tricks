@@ -78,9 +78,9 @@
   - If you have multiple constructors with different arguments, only **constructor defined at last will be considered**
 
 ### 2. Method Overloading
-	- Methods having same name but different arguments
-	- Not supported in Python
-	- If you have multiple methods with different arguments, only **method defined at last will be considered**
+  - Methods having same name but different arguments
+  - Not supported in Python
+  - If you have multiple methods with different arguments, only **method defined at last will be considered**
 
 ### 3. Operator Overloading
 
