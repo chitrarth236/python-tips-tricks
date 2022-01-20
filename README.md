@@ -1,5 +1,7 @@
 # Advanced Python Tricks and Tips - Notes
 
+### [Python Object Oriented Programming Tips/Tricks](https://github.com/chitrarth236/python-tips-tricks/tree/main/Python_OOP_tips_tricks_notes)
+
 - ### Modifiying the value of static variable
 If you try to modify the value of static variable by using either self or object variable, then the value of static variable won't be changed, instead just a new instance variable with the same name will be added to that object.
 
